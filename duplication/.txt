@@ -1,0 +1,5 @@
+Duplication means creating another copy of data manually — usually for backup or quick access.
+
+There is no automatic syncing.
+
+If original changes → duplicate does NOT change automatically.
