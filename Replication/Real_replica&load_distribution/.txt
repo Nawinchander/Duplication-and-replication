@@ -1,0 +1,6 @@
+1 Primary DB (writes)
+
+2 Replicas (reads)
+
+All writes go to Primary.
+Reads go to replicas.
