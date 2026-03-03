@@ -1,0 +1,13 @@
+Replication means:
+
+Automatically keeping multiple servers in sync.
+
+If main server updates → replicas update too.
+
+Used in:
+
+Distributed systems
+
+Databases
+
+Microservices
