@@ -1,0 +1,2 @@
+When your app starts, it copies DB data into memory cache.
+Later DB changes → cache not updated automatically.duplication/Cache warmup/.txt
