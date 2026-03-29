@@ -12,5 +12,10 @@ Eventual consistency
 Handles read-heavy systems
 
 
-
+FAANG-Level Insights
+Consistency Model → Eventual consistency (not strong)
+Failure Case → What if follower fails? → Retry queue / WAL (Write Ahead Log)
+Scaling → Add more followers (read scaling)
+Real Tech → Similar to Redis replication
+Tradeoff (CAP) → Availability > Consistency
 
