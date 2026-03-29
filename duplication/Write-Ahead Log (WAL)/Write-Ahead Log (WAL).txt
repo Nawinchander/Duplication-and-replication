@@ -1,0 +1,11 @@
+eal-World Inspiration
+
+Used in systems like Amazon DynamoDB, Google Spanner, and databases like PostgreSQL.
+
+🧠 Core Idea
+
+Instead of directly copying data:
+👉 Every write is first duplicated into a log (WAL)
+👉 That log is then used to rebuild or sync data anywhere
+
+
