@@ -1,0 +1,16 @@
+Distributed Cache Replication (Leader–Follower Model)
+
+Use Case
+
+Think of systems like Amazon or Netflix where cached data must be replicated across regions for low latency.
+
+Concept
+
+Leader node handles writes
+Followers replicate asynchronously
+Eventual consistency
+Handles read-heavy systems
+
+
+
+
