@@ -16,3 +16,50 @@ This models:
 Durable write logging
 Replay-based duplication
 Fault recovery
+
+
+Why This Is FAANG-Level
+✅ 1. Durable Duplication (Not Just Copying)
+Even if primary crashes → WAL can replay all data
+Guarantees no data loss
+✅ 2. Decoupled Duplication
+Multiple consumers:
+replicas
+backups
+analytics systems
+Similar to event streaming systems like Kafka
+✅ 3. Recovery Mechanism
+Replica can:
+Crash
+Restart
+
+Resume from lastSyncedIndex
+⚠️ Advanced Problems & Solutions
+❌ Problem: WAL grows infinitely
+
+✔ Solution:
+
+Log compaction
+Snapshotting
+❌ Problem: Duplicate processing
+
+✔ Solution:
+
+Idempotent writes
+Unique log IDs
+
+Problem: Lagging replicas
+
+✔ Solution:
+
+Parallel log replay
+Partitioned logs
+🧠 FAANG Interview Deep Points
+🔹 Duplication vs Replication Here
+WAL = Duplication layer
+Replicas = Replication layer using duplicated log
+🔹 Key Terms to Use
+“Log-based duplication”
+“Replayable event stream”
+“Durability via append-only log”
+“Checkpointing + snapshotting”
