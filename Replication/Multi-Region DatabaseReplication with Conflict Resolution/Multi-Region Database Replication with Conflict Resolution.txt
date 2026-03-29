@@ -8,4 +8,16 @@ Conflict resolution strategy required
 Versioning / timestamps used
 
 
+FAANG-Level Insights
+Conflict Resolution Strategies
+Last Write Wins (used above)
+Vector Clocks (advanced)
+CRDTs (Conflict-free Replicated Data Types)
+Tradeoffs
+High availability
+Complex consistency logic
+Real Systems
+DynamoDB Global Tables
+Cassandra Multi-DC replication
+
 
