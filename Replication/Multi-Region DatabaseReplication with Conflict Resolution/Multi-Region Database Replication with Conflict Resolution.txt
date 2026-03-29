@@ -1,0 +1,11 @@
+
+
+Used by systems like Google or Meta Platforms where writes happen in multiple regions.
+
+Concept
+Multi-leader replication (active-active)
+Conflict resolution strategy required
+Versioning / timestamps used
+
+
+
